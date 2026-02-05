@@ -9,6 +9,23 @@
 A **real-time face mask detection system** using **MediaPipe for face detection** and a **PyTorch deep learning model** for mask classification.  
 Designed to work robustly even when the face is partially occluded (mask worn).
 
+
+Project Overview
+
+This project is a real-time Face Mask Detection system built using Deep Learning and Computer Vision techniques. The system is capable of detecting whether a person is wearing a mask or not, both from single images and live webcam video.
+
+The core classification model is trained using PyTorch, while MediaPipe Face Detection is used for fast and accurate face localization in real-time. Once a face is detected, it is preprocessed and passed to the trained model, which predicts the class (Mask / No Mask) along with the confidence percentage.
+
+The application supports:
+
+🖼️ Single image mask detection
+
+🎥 Live webcam mask detection using OpenCV
+
+📊 Confidence-based predictions displayed on screen
+
+This project demonstrates a complete end-to-end ML pipeline, including model training, inference, real-time deployment, and system integration. It is designed to be lightweight, efficient, and suitable for real-world applications such as public safety monitoring, healthcare environments, and access control systems.
+
 ---
 
 ## 🚀 Demo
